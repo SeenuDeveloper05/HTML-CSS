@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 0px;
+
+}
+.side{
+    background-color: blue;
+    color: black;
+    padding: 20px;
+    position:fixed;
+    height: 100vh;
+    width: 250px;
+    
+}
+.side h2{
+    margin-bottom: 20px;
+}
+.side a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    display: block;
+    font-weight: 900;
+}
+.side a:hover{
+    background-color: black;
+    border: 1px solid blue;
+    border-radius: 25px;
+}
+.main{
+    margin-left: 250px;
+    background-color: black;
+    padding: 20px;
+    color: white;
+    width: 1350px;
+    height: 100vh;
+    display:flex ;
+    flex-direction: row;
+    justify-content: ;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card{
+    background-color: aliceblue;
+    color:black;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 250px;
+    height: fit-content;
+    margin-bottom: 20px;
+    
+    
+}

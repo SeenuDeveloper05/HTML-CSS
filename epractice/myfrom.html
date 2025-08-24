@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</title>
+</head>
+<body>
+   <form>
+
+     <lable for="fullname">Full Name:</lable>
+     <input type="text" placeholder="Enter Your Name" minlength="10" maxlength="50" required/>
+     <br/> <br/>
+
+      <lable for="email">Email:</lable>
+     <input type="email" placeholder="example@gmail.com" required/>
+     <br/> <br/>
+
+      <lable for="password">Password:</lable>
+     <input type="password" placeholder="Atleast 8 characters" minlength="8" maxlength="50" required/>
+     <small>(Must contain 1 Uppercase, 1 lowsercase, numbers&text)</small>
+     <br/> <br/>
+
+      <lable for="age">Age:</lable>
+     <input type="number" placeholder="example=20" min="18" max="60" required/>
+     <br/> <br/>
+
+      <lable for="dob">DoB:</lable>
+     <input type="date"required/>
+     <br/> <br/>
+
+      <lable for="phone">Phone Number:</lable>
+     <input type="tel" placeholder="8098546376" required/>
+     <br/> <br/>
+
+      <lable for="url">Linkedin link:</lable>
+     <input type="url" placeholder="127.0.0.1:5500/myfrom.html" required/>
+     <br/> <br/>
+
+      <lable for="file">Upload Your Resume:</lable>
+     <input type="file" required/>
+     <br/> <br/>
+
+     
+      <lable for="color">Choose your fav colour:</lable>
+     <input type="color" required/>
+     <br/> <br/>
+
+     
+      <lable for="experiance">Experiance(20) </lable>
+     <input type="range" min="0" max="20" required/>
+     <br/> <br/>
+
+     <p>Choose your gender:</p>
+      <lable for="male">Male</lable>
+     <input type="radio" name="gender" required/>
+     <lable for="female">FeMale</lable>
+     <input type="radio" name="gender" required/>
+     <br/> <br/>
+
+     <p>Choose your Skills:</p>
+      <lable for="html">Html</lable>
+     <input type="checkbox" name="skill" required/>
+     <lable for="css">CSS</lable>
+     <input type="checkbox" name="skill" required/>
+     <lable for="js">Js</lable>
+     <input type="checkbox" name="skill" required/>
+     <br/> <br/>
+     
+     <p>Rating:</p>
+     <label>⭐⭐⭐⭐⭐(5/5)</label>
+     <br/><br/>
+     
+     <input type="submit" name="submit" value="Register">
+     <input type="reset" name="reset" value="Reset">
+
+     
+    
+ 
+
+   </form>
+</body>
+</html>

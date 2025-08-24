@@ -1,0 +1,37 @@
+.main{
+    background-color: rgba(242, 248, 232, 0.827);
+    display: flex;
+    width: 100%;
+    gap: 50px;
+}
+.main_image{
+    padding: 30px;
+   
+}
+ button{
+    background-color: black;
+    color: aliceblue;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+.phone{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+.kalathi{
+    background-color:white;
+    color: black;
+    width: 300px;
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+
+

@@ -1,0 +1,21 @@
+   .item {
+      display: grid;
+      grid-template-columns: 350px 350px 350px 325px;
+      gap: 20px;
+      background-color:;
+      padding: 20px;
+    }
+
+    .img {
+      background-color:black;
+      color:white;
+      font-size: 20px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+     
+    
+

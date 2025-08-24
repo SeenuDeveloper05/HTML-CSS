@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <title>product</title>
+    <link rel="stylesheet" href="grid_file/dashboard.css">
+    <link rel="stylesheet" href="grid_file/product.css">
+</head>
+<body>
+    <!--Aside-->
+    <aside class="sidebar">
+        <h2>My App</h2>
+        <nav>
+            <a href="index.html">Dashboard</a>
+            <a href="product.html">product Add</a>
+            <a href="">product Price</a>
+            <a href="">Settings</a>     
+        </nav>      
+    </aside>
+    <!--Top navBar-->
+    <header class="top-nav">
+        <h1>Dashboard</h1>
+        <div>
+            <button class="msg">message</button>
+            <button class="msg">logout</button>
+        </div>
+    </header>
+    <!--Main Section-->  
+    <main class="maincontent1">
+        <div class="maincontainer2">
+          
+         <div class="card1">
+            <div class="input">
+            <h2>From</h2>
+            <label for="name">Name:</label>
+            <input type="text" placeholder="enter your name" class="form">
+            </div>
+            <div class="input">
+            <label for="number">Mobile Number:</label>
+            <input type="number" placeholder="enter number" class="form">
+            </div>
+            <div class="input">
+            <label for="text">Message:</label>
+            <textarea name="message" id="" placeholder="text your msg"  class="form"></textarea>
+            </div>
+            <div class="input">
+            <label for="age">Age</label>
+            <input type="number" minlength="18" maxlength="65" placeholder="Enter your age"  class="form"> 
+            </div>
+            <div class="input">
+            <p>Gender:</p>
+            <lable for="male">Male</lable>
+           <input type="radio" name="gender" required/>
+          <lable for="female">Female</lable>
+           <input type="radio" name="gender" required/>
+           </div>
+             <div class="input">
+            <input type="submit" name="submit" value="Register">
+     <input type="reset" name="reset" value="Reset"  class="form">
+     </div>
+         </div>
+
+   
+        </div>
+    </main>
+</body>
+</html>
+

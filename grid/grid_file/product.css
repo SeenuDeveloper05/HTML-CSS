@@ -1,0 +1,28 @@
+.maincontent1{
+    position: fixed;
+    top: 80px;
+    left: 250px;
+    right: 0;
+    bottom: 0;
+    overflow-y: auto;
+
+}
+.maincontainer2{
+   display: grid;
+   grid-template-columns: repeat(minmax(300px,2fr));
+   justify-content: center;
+
+
+}
+.card1{
+   background-color: rgb(208, 208, 254);
+   border: 1px solid black;
+   border-radius: 10px;
+   padding: 10px;
+   margin: 5px;
+   height: fit-content;
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   gap: 20px;
+}

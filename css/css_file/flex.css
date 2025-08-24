@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card{
+
+      background-color: blueviolet; 
+      height: 100vh;
+      display:flex;
+      justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.box{
+    background-color: black;
+    color:white;
+    width: 400px;
+    height: 150px;
+    margin-top: 60px;
+    border: 1px solid rgb(245, 11, 11);
+    border-radius: 20px;
+    font-weight: bolder;  
+    display: flex;
+    justify-content: center;
+}
+
+ @media (max-width: 768px) {
+      .box {
+        flex: 1 1 45%;   /* ✅ 2 boxes per row */
+      }
+    }
+
+    /* 🔹 Extra Small (≤480px) → stack full width */
+    @media (max-width: 480px) {
+      .box {
+        flex: 1 1 100%;  /* ✅ 1 box per row */
+      }
+}

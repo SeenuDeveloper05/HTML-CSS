@@ -25,18 +25,44 @@
                     <li class="nav-item"><a href="" class="nav-link navbar-brand">HOSPITALITY</a></li>
                     <li class="nav-item"><a href="" class="nav-link navbar-brand">EXPERIENCE</a></li>
                     <li class="nav-item"><a href="" class="nav-link navbar-brand"><img src="assets/logo/logo2.png" alt="logo2" width="50" height="40" ></a></li>
-                    <li class="nav-item"><button class="btn btn-secondary rounded-pill px-4 bg-dark">Sign In</button></li>
+                    <li class="nav-item"><button class="btn btn-secondary rounded-pill px-4 bg-dark" data-bs-toggle="modal" data-bs-target="#function">Sign In</button></li>
                     <li class="nav-item"><button class="btn btn-danger rounded-pill px-4">Subscribe</button></li>
                 </ul>
             </div>
         </nav>    
     </header>
     <section>
-        <div class="d-flex img-thumbnail gap-4 mt-5 justify-content-center align-items-center container p-3">
+        <div class="d-flex img-thumbnail gap-4 mt-5 justify-content-center align-items-center  p-3">
             <img src="assets/banner/car.jpg" alt="carbanner">
             <p class="fw-bold text-primary fs-5">Formula 1 (F1) cars are the fastest regulated, open-wheel, single-seat racing cars in the world, built with cutting-edge technology and precision engineering. They are designed for maximum speed, aerodynamics, and handling on specialized race tracks. Each car is made of lightweight carbon fiber and powered by a hybrid engine that combines a turbocharged V6 with advanced energy recovery systems. With speeds exceeding 350 km/h, extreme downforce, and incredible cornering abilities,
              F1 cars push the limits of both engineering and driver skill. 
              They represent the pinnacle of motorsport innovation and performance.</p>
+        </div>
+    </section>
+    <section>
+        <div class="modal" id="function" tabindex="-1" aria-labelledby="modaltitle" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 class="modal-title"id="modaltitle">Sign-in</h2>
+                        <button class="btn-close" data-bs-dismiss="modal"><span></span></button>
+                    </div>
+                    <div class="modal-body">
+                              <form action="">
+                                <label for="">USER NAME:</label>
+                                <input type="text" placeholder="Name"> <br>
+                                <label for="">PASSWORD:</label>
+                                <input type="password" placeholder="password" >
+                              </form>
+                    </div>
+                    <div class="modal-footer">
+                          <button class="btn-primary"data-bs-dismiss="modal">close</button>
+                          <button class="btn-danger">Select</button>
+                    </div>
+
+                </div>
+            </div>
+            
         </div>
     </section>
 </body>
